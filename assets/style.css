@@ -1,0 +1,116 @@
+:root {
+    --background-color: #f6f6f5;
+    --text-color: #464646;
+    --header-background: #09347a;
+    --button-background: #007dc3;
+    --button-text: #fff;
+    --link-color: #0169a4;
+    --link-hover-color: #3399cc;
+    --accent-color: #f1632a;
+    --overlay-color: rgba(221, 221, 221, 0.7);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    z-index: 10;
+}
+
+div.container {
+    background-color: var(--background-color);
+    padding-bottom: 10px;
+    border-radius: 0 0 20px 20px;
+
+}
+
+h1.scopri {
+    font-size: 100px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1.voglia {
+    font-size: 70px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+div.text-overlay {
+    position: absolute;
+    top: 125px;
+    left: 350px;
+    background-color: var(--overlay-color);
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+img.main-photo {
+    width: 100%;
+}
+
+div.content {
+    border-radius: 0 0 10px 10px;
+}
+
+img.sciatore {
+    border-radius: 25px;
+}
+
+div.card-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+div.carousel {
+    padding-top: 50px;
+}
+
+.descrizione {
+    background-color: rgba(240, 248, 255, 0.5);
+}
+
+.carousel-img {
+    border-radius: 0 0 10px 10px;
+}
+
+form {
+    padding-top: 100px;
+    display: inline;
+}
+
+.map {
+    margin-top: 70px;
+}
+
+div.confirm {
+    margin: auto;
+    padding-top: 70px;
+}
+
+div.duek {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.duek-img {
+    max-width: 50%;
+}
+
+div.linea {
+    width: 100%;
+    border: 1px solid black;
+    margin: 50px 0;
+}
+
+
+
