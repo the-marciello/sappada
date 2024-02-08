@@ -24,7 +24,7 @@ div.container {
     background-color: var(--background-color);
     padding-bottom: 10px;
     border-radius: 0 0 20px 20px;
-
+    min-height: 80vh;
 }
 
 h1.scopri {
@@ -83,8 +83,9 @@ div.carousel {
 }
 
 form {
-    padding-top: 100px;
-    display: inline;
+    padding-top: 70px;
+    width: 50%;
+    margin: auto;
 }
 
 .map {
@@ -106,9 +107,12 @@ div.img-title > img {
     width: 100%;
 }
 
-.banana {
-    box-shadow: 10px 10px 5px rgb(0, 0, 0) inset;
-}
+/* 
+sto cercando di mettere un ombra dentro all'immagine per far sembrare che sia sfumata
+.img-title {
+    display: block;
+    box-shadow: inset 0px 0px 100px 50px rgb(0, 0, 0);
+} */
 
 
 div.linea {
