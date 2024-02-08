@@ -88,7 +88,7 @@ form {
 }
 
 .map {
-    margin-top: 70px;
+    margin-top: 10px;
 }
 
 div.confirm {
@@ -102,9 +102,14 @@ div.duek {
     align-items: center;
 }
 
-img.duek-img {
-    max-width: 50%;
+div.img-title > img {
+    width: 100%;
 }
+
+.banana {
+    box-shadow: 10px 10px 5px rgb(0, 0, 0) inset;
+}
+
 
 div.linea {
     width: 100%;
