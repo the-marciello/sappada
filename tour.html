@@ -40,41 +40,86 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> 
 
-        <div class="container bg-primary">
-            <form action="response.html">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="inputNome4">Nome</label>
-                        <input required type="text" class="form-control" id="inputNome4" placeholder="Nome">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputCognome4">Cognome</label>
-                        <input required type="text" class="form-control" id="inputCognome4" placeholder="Cognome">
-                    </div>
-                    <div class="form-group">
-                        <label for="inputEmail4">Email</label>
-                        <input required type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                    </div>
-                    <div class="form-group">
-                        <label for="date">Data</label>
-                        <input required type="date" class="form-control" id="date">
-                    </div>
-                    <div class="form-group">
-                        <label for="partecipants">Numero di partecipanti</label>
-                        <select required class="custom-select custom-select-md mb-3 form-control" id="partecipants">
-                            <option selected></option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
+        <div id="booking" class="section">
+            <div class="section-center">
+                <div class="container bg-transparent" >
+                    <div class="row">
+                        <div class="col-md-5 col-md-push-5">
+                            <div class="booking-cta">
+                                <h1>Prenota il tuo tour guidato</h1>
+                                <p>
+                                    Esplora Sappada con i nostri tour guidati! Accompagnati da guide esperte, scoprirai le meraviglie naturali e culturali di questa incantevole località montana nelle Dolomiti friulane. Prenota ora per un'esperienza indimenticabile!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-md-pull-7">
+                            <div class="booking-form">
+                                <form action="response.html">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <span class="form-label">Nome</span>
+                                            <input class="form-control" type="text" placeholder="Nome" id="nome" required>
+                                        </div>
+    
+                                        <div class="col-sm-6">
+                                            <span class="form-label">Cognome</span>
+                                            <input class="form-control" type="text" placeholder="Cognome" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <span class="form-label">Email</span>
+                                        <input class="form-control" type="email" placeholder="Email" required>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <span class="form-label">Check In</span>
+                                                <input class="form-control" type="date" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <span class="form-label">Check out</span>
+                                                <input class="form-control" type="date" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <span class="form-label">Adulti</span>
+                                                <select class="form-control">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                </select>
+                                                <span class="select-arrow"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <span class="form-label">Bambini</span>
+                                                <select class="form-control">
+                                                    <option>0</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                </select>
+                                                <span class="select-arrow"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-btn">
+                                        <button class="submit-btn">Prenota ora!</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary bg-dark">Invia</button>
-            </form>
+            </div>
         </div>
 
         <footer class="py-3 my-4">
